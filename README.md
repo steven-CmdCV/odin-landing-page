@@ -7,3 +7,7 @@ This is the ladning page project for The Odin Project's flexbox section in the f
 - Flexbox basics
 
 In order to build a webpage layout (of which an image been provided for me).
+
+# image credits
+
+Photo by Puscas Adryan from Unsplash: https://unsplash.com/photos/abstract-iridescent-fluid-shape-on-purple-background-L_HklNsMvaY
