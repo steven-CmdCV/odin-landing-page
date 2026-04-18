@@ -24,11 +24,12 @@ a {
 .header {
   display: flex;
   flex-direction: column;
-  font-family: "Roboto";
+  font-family: "Roboto"; /* add fallback fonts */
   color: white;
   background-color: #1f2937;
   padding: 20px 150px;
   padding-bottom: 150px;
+  gap: 150px;
 }
 
 .header-top {
@@ -46,7 +47,6 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 50px;
 }
 
 .header-middle img {
@@ -59,4 +59,16 @@ a {
   flex-direction: column;
   gap: 10px;
   width: 350px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container button {
+  background-color: #3882f6;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px 20px;
 }
