@@ -89,7 +89,7 @@ a {
   padding: 5px 20px;
 }
 
-/* Information section */
+/* Information Section */
 .information {
   display: flex;
   flex-flow: column wrap;
@@ -129,9 +129,10 @@ a {
   color: gray;
 }
 
-/* Quote section */
+/* Quote Section */
 .quote {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
@@ -143,4 +144,10 @@ a {
   color: #1f2937;
   font-size: 36px;
   font-weight: 300;
+}
+
+.quote .quote-author {
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: 900;
 }
