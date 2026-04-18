@@ -1,6 +1,6 @@
 # odin-landing-page
 
-This is the ladning page project for The Odin Project's flexbox section in the foundations course, whre I will be looking to apply all of the previously learned concepts, such as:
+This is the landing page project for The Odin Project's flexbox section in the foundations course, where I will be looking to apply all of the previously learned concepts, such as:
 
 - HTML basics
 - CSS basics
