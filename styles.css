@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: "Roboto"; /* add fallback fonts */
   min-height: 100vh;
 }
 
@@ -24,7 +25,6 @@ a {
 .hero {
   display: flex;
   flex-direction: column;
-  font-family: "Roboto"; /* add fallback fonts */
   color: white;
   background-color: #1f2937;
   padding: 20px 150px;
@@ -87,4 +87,44 @@ a {
   border: 0px;
   border-radius: 5px;
   padding: 5px 20px;
+}
+
+/* Information section */
+.information {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 20px 150px;
+  padding-bottom: 150px;
+  gap: 50px;
+}
+
+.information h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
 }
