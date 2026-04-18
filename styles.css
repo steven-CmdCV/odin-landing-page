@@ -151,3 +151,45 @@ a {
   font-size: 25px;
   font-weight: 900;
 }
+
+/* CTA section */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 20px 150px;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: white;
+  min-width: 900px;
+  padding: 50px 100px;
+}
+
+.cta-content-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.cta-content-container h5 {
+  font-size: 19px;
+}
+
+.cta-content-container .text {
+  font-size: 15px;
+  font-weight: 0;
+}
+.cta-button button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: 700;
+  padding: 5px 25px;
+}
