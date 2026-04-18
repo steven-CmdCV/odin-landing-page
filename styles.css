@@ -37,6 +37,11 @@ a {
   justify-content: space-between;
 }
 
+.header-top h2 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
 .header-links {
   display: flex;
   justify-content: space-between;
@@ -47,6 +52,17 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.header-middle h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.header-middle p {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .header-middle img {
