@@ -20,8 +20,8 @@ a {
   font-size: 18px;
 }
 
-/* Header Section */
-.header {
+/* Hero Section */
+.hero {
   display: flex;
   flex-direction: column;
   font-family: "Roboto"; /* add fallback fonts */
@@ -32,56 +32,56 @@ a {
   gap: 150px;
 }
 
-.header-top {
+.hero-header {
   display: flex;
   justify-content: space-between;
 }
 
-.header-top h2 {
+.hero-header h2 {
   color: #f9faf8;
   font-size: 24px;
 }
 
-.header-links {
+.hero-header-links {
   display: flex;
   justify-content: space-between;
   gap: 10px;
 }
 
-.header-middle {
+.hero-content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.header-middle h1 {
+.hero-content h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
 }
 
-.header-middle p {
+.hero-content p {
   color: #e5e7eb;
   font-size: 18px;
 }
 
-.header-middle img {
+.hero-content img {
   width: 400px;
   display: flex;
 }
 
-.content-container {
+.hero-content-container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 350px;
 }
 
-.button-container {
+.hero-button {
   display: flex;
 }
 
-.button-container button {
+.hero-button button {
   background-color: #3882f6;
   color: white;
   border: 0px;
