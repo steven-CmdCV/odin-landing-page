@@ -60,11 +60,6 @@ a {
   font-weight: 900;
 }
 
-.hero-content p {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
 .hero-content img {
   width: 400px;
   display: flex;
@@ -75,6 +70,11 @@ a {
   flex-direction: column;
   gap: 10px;
   width: 350px;
+}
+
+.hero-content-container .text {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero-button {
@@ -123,8 +123,24 @@ a {
   height: 200px;
 }
 
-.text {
+.card .text {
   text-align: center;
   font-size: 18px;
   color: gray;
+}
+
+/* Quote section */
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  min-height: 600px;
+  padding: 20px 200px;
+}
+
+.quote .text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
 }
